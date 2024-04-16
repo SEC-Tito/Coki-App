@@ -1,0 +1,45 @@
+*{
+    --background: linear-gradient(to bottom, #ffd700, #ff8c00);
+  }
+  ion-content {
+    --background: url('/assets/Fondo2.jpg') no-repeat center center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100v;
+  }
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .boton1 {
+    width: 20vw; /* El ancho será el 20% del ancho de la ventana */
+    left: 1vw; /* La posición izquierda será el 5% del ancho de la ventana */
+    margin-top: 1vh; /* El margen superior será el -5% de la altura de la ventana */
+  }
+  
+
+  .ionpadre {
+    width: 60vw; 
+    height: 73vh; 
+    margin-left: 20vw;
+    margin-top: 1vh; 
+
+  }
+  .ionimag1{
+    height:vw;
+    width:vw;
+  }
+  .ionhijo{
+    width: 30vw; 
+    height: 37.5vh; 
+    margin-left: 25vw;
+    margin-top: 27vh;
+  }
+  

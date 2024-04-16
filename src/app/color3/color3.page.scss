@@ -1,0 +1,76 @@
+*{
+    --background: linear-gradient(to bottom, #ffd700, #ff8c00);
+  }
+  ion-content {
+    --background: url('/assets/Fondo2.jpg') no-repeat center center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100v;
+  }
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+  }
+  .button-Home {
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    border-style: double;
+    font-weight: 600;
+    background-image: linear-gradient(
+      rgb(54, 53, 53),
+      rgb(0, 0, 0),
+      rgb(54, 54, 54)
+    );
+    color: rgb(164, 164, 162);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: rgb(0, 0, 0);
+    transition: 400ms;
+    
+  }
+  .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+  }
+  .boton1{
+    display: flex; 
+  
+    width: 20%;
+    left: 5%;
+    margin-top:-5%;
+  }
+  
+  .button-container{
+    display: flex;
+    padding-top: 2rem;
+  }
+  .card1{
+    width: 19% ;
+    margin-top:4% ;
+   
+  }
+  .titulo{
+   --background:  gray;
+  }
+  .ionpadre{
+    width: 73%;
+    height: 97%;
+    margin-left: 25%;
+    margin-top: -37.9%;
+  }
+  .ionimg{
+    height:110px;
+    width:220px;
+  }
+  .juan{
+    width: 120px;
+  }

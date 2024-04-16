@@ -1,0 +1,67 @@
+<ion-content class="ion-padding">
+  <ion-img src="assets/LogoCK.png" class="logo" [routerLink]="['/home']"></ion-img>
+  
+ 
+   
+      <ion-col size="6">
+        <ion-card class="card1">
+          <img alt="Silhouette of mountains" src="https://i.pinimg.com/280x280_RS/54/90/72/549072989623ad2069552d86cdcab6fa.jpg" />
+          
+          <ion-card-header class="titulo">
+            <ion-card-title>What is a lion</ion-card-title>
+            
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+
+
+      <ion-card class="ionpadre"color="medium">
+        <ion-card-content>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="6">
+                <ion-button (click)="presentSimpleAlert()">
+                  <ion-card class="juan" class="ionimg">
+                    <img alt="Silhouette of mountains" src="https://i.pinimg.com/564x/ce/36/34/ce3634d93cfddc2651a57fe082e9be8f.jpg" />
+                  </ion-card>
+                </ion-button>
+              </ion-col>
+        
+              <ion-col size="6">
+                <ion-button (click)="presentSimpleAlert()">
+                  <ion-card class="ionimg">
+                    <img alt="Silhouette of mountains" src="https://i.pinimg.com/564x/2d/b4/7e/2db47e3b6ac89abc96dd7ad8b2ea5ea2.jpg" />
+                  </ion-card>
+                </ion-button>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col size="6">
+                <ion-button (click)="presentSimpleAlert()">
+                  <ion-card class="ionimg">
+                    <img alt="Silhouette of mountains"   src="https://i.pinimg.com/564x/3b/09/04/3b09042043ad0bea8a8fca8c8cf0e050.jpg" /> </ion-card>
+                </ion-button>
+              </ion-col>
+        
+              <ion-col size="6">
+                <ion-button (click)="presentAlert('')">
+                  <ion-card class="ionimg">
+                    <img alt="Silhouette of mountains"  src="https://i.pinimg.com/280x280_RS/54/90/72/549072989623ad2069552d86cdcab6fa.jpg" /> </ion-card>
+                </ion-button>
+              </ion-col>
+            </ion-row>
+
+
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+      
+      
+    
+   
+
+      <ion-button class="boton1" [routerLink]="['/menu']">Go to Menu 📃</ion-button>
+   
+
+</ion-content>

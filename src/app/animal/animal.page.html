@@ -1,0 +1,71 @@
+<ion-content [fullscreen]="true">
+  <ion-img src="assets/LogoCK.png" class="logo" [routerLink]="['/home']"></ion-img>   
+  
+  
+  <div>
+    
+      <h1>Aprende Colores en Inglés</h1>
+  
+      <ul>
+          <li class="red">Red</li>
+          <li class="blue">Blue</li>
+          <li class="green">Green</li>
+          <li class="yellow">Yellow</li>
+          <li class="purple">Purple</li>
+          <li class="orange">Orange</li>
+      </ul>
+      <ul>
+        <li class="red">Red</li>
+        <li class="blue">Blue</li>
+        <li class="green">Green</li>
+        <li class="yellow">Yellow</li>
+        <li class="purple">Purple</li>
+        <li class="orange">Orange</li>
+    </ul>
+
+    <ul>
+      <li class="red">Red</li>
+      <li class="blue">Blue</li>
+      <li class="green">Green</li>
+      <li class="yellow">Yellow</li>
+      <li class="purple">Purple</li>
+      <li class="orange">Orange</li>
+  </ul>
+
+  <ul>
+    <li class="red">Red</li>
+    <li class="blue">Blue</li>
+    <li class="green">Green</li>
+    <li class="yellow">Yellow</li>
+    <li class="purple">Purple</li>
+    <li class="orange">Orange</li>
+</ul>
+
+      <script>
+        // Función para mostrar el nombre del color al hacer clic en el cuadro
+        document.addEventListener('DOMContentLoaded', function() {
+            var colorBoxes = document.querySelectorAll('li');
+
+            colorBoxes.forEach(function(box) {
+                box.addEventListener('click', function() {
+                    var colorName = this.textContent;
+                    document.getElementById('colorName').textContent = colorName;
+                });
+            });
+        });
+    </script>
+         <p>¡Haz clic en cada color para ver su nombre en inglés!</p>
+ 
+    </div>  
+  
+  
+  <div id="contenedor1">     
+      <div class="button-container">
+        <ion-button color="light">Senssd</ion-button>
+      </div>    
+    </div>
+    
+    <div class="divboton">
+      <button class="button-Home" [routerLink]="['/menu']">Go to Menu 📃</button>
+    </div>
+</ion-content>

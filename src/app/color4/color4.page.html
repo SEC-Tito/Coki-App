@@ -1,0 +1,64 @@
+<ion-content class="ion-padding">
+  <ion-img src="assets/LogoCK.png" class="logo" [routerLink]="['/home']"></ion-img>
+  
+ 
+   
+      <ion-col size="6">
+        <ion-card class="card1">
+          <img alt="Silhouette of mountains" src="https://i.pinimg.com/564x/13/5c/27/135c27e76a14e2477059cea160c81dac.jpg" />
+          
+          <ion-card-header class="titulo">
+            <ion-card-title>which is the TIGER?🐕</ion-card-title>
+            
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+
+
+      <ion-card class="ionpadre"color="medium">
+        <ion-card-content>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="6">
+                <ion-button (click)="presentSimpleAlert()">
+                  <ion-card  class="ionimg">
+                    <img alt="Silhouette of mountains" class="juan" src="https://i.pinimg.com/564x/c4/ae/22/c4ae224e5c7dbd02f02b06b7ffa2ef57.jpg" />
+                  </ion-card>
+                </ion-button>
+              </ion-col>
+        
+              <ion-col size="6">
+                <ion-button (click)="presentSimpleAlert()">
+                  <ion-card class="ionimg">
+                    <img alt="Silhouette of mountains" class="juan"src="https://i.pinimg.com/564x/62/1f/8b/621f8b1c365bce33d36e9b0e4f66b565.jpg" />
+                  </ion-card>
+                </ion-button>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col size="6">
+                <ion-button (click)="presentAlert('')">
+                  <ion-card class="ionimg">
+                    <img alt="Silhouette of mountains" class="juan"  src="https://i.pinimg.com/564x/13/5c/27/135c27e76a14e2477059cea160c81dac.jpg" /> </ion-card>
+                </ion-button>
+              </ion-col>
+        
+              <ion-col size="6">
+                 <ion-button (click)="presentSimpleAlert()">
+                  <ion-card class="ionimg">
+                    <img alt="Silhouette of mountains"class="juan"  src="https://i.pinimg.com/564x/c8/c2/d4/c8c2d49cbe192fb0bffd51fff0533c89.jpg" /> </ion-card>
+                </ion-button>
+              </ion-col>
+            </ion-row>
+
+
+          </ion-grid>
+        </ion-card-content>
+      </ion-card>
+      
+      
+    
+   
+      <ion-button  class="boton1" (click)="confirmarRedireccion()">Go to Menu 📃</ion-button>
+</ion-content>
