@@ -1,0 +1,149 @@
+* {
+    --background: linear-gradient(to bottom, #ffd700, #ff8c00);
+  }
+  
+  ion-content {
+    --background: url('/assets/Fondo2.jpg') no-repeat center center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Cambiado de 100v a 100vh */
+  }
+  
+  .logo {
+    position: absolute;
+    top: 2%; /* Ajustado a porcentaje */
+    left: 2%; /* Ajustado a porcentaje */
+    width: 15%; /* Ajustado a porcentaje */
+    height: auto;
+    z-index: 1;
+  }
+  
+  .button-Home {
+    padding: 1.5rem 3rem; /* Cambiado a unidades relativas */
+    border-radius: 1rem; /* Cambiado a unidades relativas */
+    border-style: double;
+    font-weight: 600;
+    background-image: linear-gradient(
+      rgb(54, 53, 53),
+      rgb(0, 0, 0),
+      rgb(54, 54, 54)
+    );
+    color: rgb(164, 164, 162);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: rgb(0, 0, 0);
+    transition: 0.4s; /* Cambiado a unidades relativas */
+  }
+  
+  .button-container {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center; /* Añadido para centrar el contenido */
+  }
+  
+  .card1 {
+    width: 13%;
+    margin-top: 4%;
+    margin-left: 1%; /* Añadido para espaciar las tarjetas */
+     /* Añadido para espaciar las tarjetas */
+  }
+  
+  .titulo {
+    background: gray; /* Cambiado a background en lugar de --background */
+  }
+  
+  .ionpadre {
+    width: 50%;
+    height: 97%;
+    margin-left: 25%;
+    margin-top: -37.9%;
+  }
+  
+  .ionimg {
+    height: auto; /* Ajustado a auto para mantener la proporción */
+    width: 80%; /* Ajustado a 100% para ocupar todo el ancho */
+    max-width: 220px; /* Añadido para limitar el ancho máximo */
+  }
+  
+  .juan {
+    width: 120px;
+  }
+  .boton1{
+    margin-top:-80px ;
+  }
+  * {
+    --background: linear-gradient(to bottom, #ffd700, #ff8c00);
+  }
+  
+  ion-content {
+    --background: url('/assets/Fondo2.jpg') no-repeat center center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Cambiado de 100v a 100vh */
+  }
+  
+  .logo {
+    position: absolute;
+    top: 2%; /* Ajustado a porcentaje */
+    left: 2%; /* Ajustado a porcentaje */
+    width: 15%; /* Ajustado a porcentaje */
+    height: auto;
+    z-index: 1;
+  }
+  
+  .button-Home {
+    padding: 1.5rem 3rem; /* Cambiado a unidades relativas */
+    border-radius: 1rem; /* Cambiado a unidades relativas */
+    border-style: double;
+    font-weight: 600;
+    background-image: linear-gradient(
+      rgb(54, 53, 53),
+      rgb(0, 0, 0),
+      rgb(54, 54, 54)
+    );
+    color: rgb(164, 164, 162);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: rgb(0, 0, 0);
+    transition: 0.4s; /* Cambiado a unidades relativas */
+  }
+  
+  .button-container {
+    display: flex;
+    padding-top: 2rem;
+    justify-content: center; /* Añadido para centrar el contenido */
+  }
+  
+  .card1 {
+    width: 13%;
+    margin-top: 4%;
+    margin-left: 1%; /* Añadido para espaciar las tarjetas */
+     /* Añadido para espaciar las tarjetas */
+  }
+  
+  .titulo {
+    background: gray; /* Cambiado a background en lugar de --background */
+  }
+  
+  .ionpadre {
+    width: 50%;
+    height: 97%;
+    margin-left: 25%;
+    margin-top: -37.9%;
+  }
+  
+  .ionimg {
+    height: auto; /* Ajustado a auto para mantener la proporción */
+    width: 80%; /* Ajustado a 100% para ocupar todo el ancho */
+    max-width: 220px; /* Añadido para limitar el ancho máximo */
+  }
+  
+  .juan {
+    width: 120px;
+  }
+  .boton1{
+    margin-top:-80px ;
+  }
+    

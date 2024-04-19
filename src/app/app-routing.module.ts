@@ -59,6 +59,22 @@ const routes: Routes = [
     path: 'color7',
     loadChildren: () => import('./color7/color7.module').then( m => m.Color7PageModule)
   },
+  {
+    path: 'audio2',
+    loadChildren: () => import('./audio2/audio2.module').then( m => m.Audio2PageModule)
+  },
+  {
+    path: 'audio3',
+    loadChildren: () => import('./audio3/audio3.module').then( m => m.Audio3PageModule)
+  },
+  {
+    path: 'audio4',
+    loadChildren: () => import('./audio4/audio4.module').then( m => m.Audio4PageModule)
+  },
+  {
+    path: 'audio5',
+    loadChildren: () => import('./audio5/audio5.module').then( m => m.Audio5PageModule)
+  },
 ];
 
 @NgModule({

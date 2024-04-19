@@ -16,7 +16,7 @@ export class Color4Page {
   async presentAlert(imageUrl: string) {
     const alert = await this.alertController.create({
       header: 'Felecidades 🎉',
-      message: `hey pequeño lo hicistes 😎`,
+      message: `Hey bien hecho 😎`,
       buttons: [
         {
           text: 'Cerrar',
@@ -38,7 +38,7 @@ export class Color4Page {
   async presentSimpleAlert() {
     const alert = await this.alertController.create({
       header: '😱😮😥',
-      message: 'Te as equivocado, que te parece si lo hacemos de nuevo ?',
+      message: 'Te has equivocado, que tal si lo pruebas otra vez ?',
       buttons: ['Repetir 😊']
     });
 

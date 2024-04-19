@@ -16,7 +16,7 @@ export class Color6Page {
   async presentAlert(imageUrl: string) {
     const alert = await this.alertController.create({
       header: 'Felecidades 🎉',
-      message: `hey pequeño lo hicistes 😎`,
+      message: `Hey bien hecho,😎 has completa el 100 %, vamos al menu a probar otras actividades  ?`,
       buttons: [
         {
           text: 'Cerrar',
@@ -24,9 +24,9 @@ export class Color6Page {
           cssClass: 'secondary',
         },
         {
-          text: 'Ir a la siguiente actividad ^_^',
+          text: 'Si',
           handler: () => {
-            this.router.navigateByUrl('/color7');
+            this.router.navigateByUrl('/menu');
           }
         }
       ]
@@ -38,7 +38,7 @@ export class Color6Page {
   async presentSimpleAlert() {
     const alert = await this.alertController.create({
       header: '😱😮😥',
-      message: 'Te as equivocado, que te parece si lo hacemos de nuevo ?',
+      message: 'Te has equivocado, que tal si lo pruebas otra?',
       buttons: ['Repetir 😊']
     });
 
